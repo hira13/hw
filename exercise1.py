@@ -1,16 +1,17 @@
 from __future__ import division
 
-#This is exercise 1 -> Calculating AT content
+#exercise 1 
 
-sequence = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
-length = len(sequence)
-A = sequence.count("A")
+my_dna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
-T = sequence.count("T")
+length = len(my_dna)
 
-AT_total = A + T
+a_count = my_dna.count('A')
 
-AT_content = AT_total / length
+t_count = my_dna.count('T')
+
+at_content = (a_count + t_count) / length 
+
 
 print(str(AT_content))
