@@ -1,14 +1,14 @@
 from __future__ import division
 
-#this is exercise 3 <- Restriction fragment lengths
+#Restriction fragment lengths
 
-sequence = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+my_dna = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
 
-strand1 = sequence.find("GAATTC") + 1
+frag1_length = sequence.find("GAATTC") + 1
 
-strand2 = len(sequence) - strand1
+frag2_length = len(sequence) - strand1
 
-print("The first strand is of length:" + str(strand1))
+print("Length of fragment 1:" + str(strand1))
 
 
-print("The second strand is of length:" + str(strand2))
+print("Length of fragment 2:" + str(strand2))
