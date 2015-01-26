@@ -21,3 +21,11 @@ lengthexon = len(exon_1) + len (exon_2)
 percent = lengthexon/lengthtotal * 100
 
 print("The percentage of the sequence that is coding is: " + str(percent) + "%")
+
+
+#3
+
+
+intron = sequence[63:90]
+
+print(exon_1 + intron.lower() + exon_2)
