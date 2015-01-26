@@ -1,16 +1,23 @@
 from __future__ import division
 
-#this is exercise 2 - complementing DNA
+#complementing DNA
 
 sequence = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
-sequence2 = sequence.replace("A", "t")
+replacement1 = my_dna.replace('A', 't')
 
-seqeunce3 = sequence2.replace("C", "g")
+print(replacement1)
 
-sequence4 = seqeunce3.replace("G", "c")
+replacement2 = replacement1.replace('T', 'a')
 
-sequence5 = sequence4.replace("T", "a")
+print(replacement2)
 
+replacement3 = replacement2.replace('C', 'g')
 
-print(sequence5.upper())
+print(replacement3)
+
+replacement4 = replacement3.replace('G', 'c')
+
+print(replacement4)
+print(replacement4.upper())
+
